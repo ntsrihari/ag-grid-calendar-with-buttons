@@ -1,0 +1,12 @@
+<ag-grid-angular
+  [gridOptions]="gridOptions"
+  [columnDefs]="columnDefs"
+  [rowData]="rowData"
+  style="width: 100%; height: 100%"
+  class="ag-theme-alpine"
+  [editType]="'fullRow'"
+  (gridReady)="onGridReady($event)"
+  [frameworkComponents]="frameworkComponents"
+  [suppressClickEdit]="true"
+>
+</ag-grid-angular>
