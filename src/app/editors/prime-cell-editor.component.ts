@@ -38,14 +38,9 @@ export class PrimeCellEditorComponent
       this.value = new Date(year, month - 1, day);
     }
   }
-
-  // open the calendar when grid enters edit mode, i.e. the datepicker is rendered
   ngAfterViewInit() {
     this.container.toggle();
   }
-
-  // ensures that once a date is selected, the grid will exit edit mode and take the new date
-  // otherwise, to exit edit mode after a selecting a date, click on another cell or press enter
   onSelect(event) {
     this.params.api.stopEditing(false);
   }

@@ -77,7 +77,7 @@ export class AppComponent {
 
   gridOptions = {
     domLayout: "autoHeight",
-    
+
     frameworkComponents: {
       agDateInput: CustomDateComponent,
       primeCellEditor: PrimeCellEditorComponent,
@@ -92,10 +92,6 @@ export class AppComponent {
   onGridReady(params) {
     this.gridApi = params.api;
     this.gridColumnApi = params.columnApi;
-  }
-
-  onRowEditingStopped(params) {
-    debugger;
   }
 
   onEditButtonClick(params) {
