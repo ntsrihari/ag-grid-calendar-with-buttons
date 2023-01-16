@@ -1,5 +1,9 @@
 # AgGridHolidayApp
 
+This app is a template with a Angular Material Calendar with other misc row data in ag-grid. Full row can be edited, saved or deleted upon pressing respective buttons
+
+![image](https://user-images.githubusercontent.com/68051296/212585330-d2041eac-f3ba-4630-9eea-9d64ffe370e1.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.7.
 
 ## Development server
